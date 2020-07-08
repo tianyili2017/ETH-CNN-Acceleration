@@ -72,7 +72,7 @@ For more details, please refer to the comments in these source codes.
 
 5. - If without complexity control, please specify the models to be used, by copying the folder *model_qp22~37_Intra/Inter_ratio(value)* as *model_qp22~37_Intra/Inter*. Here, the value in the end of a folder name is the retention ratio of trainable parameters, chosen from {1.0, 0.2, 0.05, 0.01, 0.005, 0.002, 0.001}. A larger value means that more parameters are kept un-pruned with higher prediction accuracy of ETH-CNN, and vice versa. As a result, one model for intra-mode and one model for inter-mode are specified. 
 
-     <img src="Figures\1.png" alt="1" style="zoom:75%;" />
+     <img src="1.png" alt="1" style="zoom:75%;" />
 
    - If with complexity control, simply skip this step, because the modified HM encoder can automatically select the models.
 
@@ -82,9 +82,9 @@ For more details, please refer to the comments in these source codes.
 
    If the program is normally run, you will see the process like this.
 
-![2](Figures\2.png)
+![2](2.png)
 
-![`3`](Figures\3.png)
+![3](3.png)
 
 
 ## References
