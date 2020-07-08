@@ -4,7 +4,7 @@ This program is the deep learning based fast HM encoder [1] [link](https://ieeex
 
 In [2] [link](https://ieeexplore.ieee.org/abstract/document/8384310), we have proposed a deep ETH-CNN based approach to early predict the CU partition for HEVC, which can drastically save the encoding time via skipping the RDO search in redundant CUs. After [2] was published, we also found that the ETH-CNN itself can be further accelerated for more practical use. So, an acceleration approach for ETH-CNN is proposed in [1] with network pruning. As verified in the experiments, the CU partition of 1080p frames can be predicted in real time @30fps+, while keeping the RD performance.
 
-This encoder is modified from the standard HM 16.5, coded with C++. When the encoder is running, it calls the pruned ETH-CNN models for fast predicting the CU partition. The models were trained with Python 3.6 and TensorFlow 1.12 in advance, and then the codes for ETH-CNN inference were encrypted in a DLL file *ETH-CNN_WinDLL.dll*.
+This encoder is modified from the standard HM 16.5, coded with C++. When the encoder is running, it calls the pruned ETH-CNN models for fast predicting the CU partition. The models were trained with Python 3.6 and TensorFlow 1.12 in advance, and then the codes for ETH-CNN implementation were encapsulated as a DLL file *ETH-CNN_WinDLL.dll*.
 
 ## Download
 
