@@ -80,7 +80,7 @@ For more details, please refer to the comments in these source codes.
 
    Examples: *run_AI.bat*, *run_LDP.bat*, *run_LDB.bat*, *run_RA.bat*
 
-   If the program is normally run, you will see the process like this.
+   If the program is normally run, the output will be like this.
 
 ![2](2.png)
 
