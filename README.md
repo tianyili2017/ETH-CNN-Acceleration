@@ -30,7 +30,7 @@ For more details, please refer to the comments in these source codes.
 
 ## Running
 
-2. Path into *bin\vc10\x64\Release*
+1. Path into *bin\vc10\x64\Release*
 
 2. Set upper/lower thresholds for the three-level CU partition in file *Thr_info.txt*
   
@@ -70,13 +70,13 @@ For more details, please refer to the comments in these source codes.
 	LDP Control 0.2
 	```
 
-5. - If without complexity control, please specify the models to be used, by copying the folder *model_qp22~37_Intra/Inter_ratio(value)* as *model_qp22~37_Intra/Inter*. Here, the value in the end of a folder name is the retention ratio of trainable parameters, chosen from {1.0, 0.2, 0.05, 0.01, 0.005, 0.002, 0.001}. A larger value means that more parameters are kept un-pruned with higher prediction accuracy of ETH-CNN, and vice versa. As a result, one model for intra-mode and one model for inter-mode are specified. 
+4. - If without complexity control, please specify the models to be used, by copying the folder *model_qp22~37_Intra/Inter_ratio(value)* as *model_qp22~37_Intra/Inter*. Here, the value in the end of a folder name is the retention ratio of trainable parameters, chosen from {1.0, 0.2, 0.05, 0.01, 0.005, 0.002, 0.001}. A larger value means that more parameters are kept un-pruned with higher prediction accuracy of ETH-CNN, and vice versa. As a result, one model for intra-mode and one model for inter-mode are specified. 
 
      <img src="1.png" alt="1" style="zoom:75%;" />
 
    - If with complexity control, simply skip this step, because the modified HM encoder can automatically select the models.
 
-6. Run *TAppEncoder.exe* on Windows 10. (Program for Linux is to be uploaded soon)
+5. Run *TAppEncoder.exe* on Windows 10. (Program for Linux is to be uploaded soon)
 
    Examples: *run_AI.bat*, *run_LDP.bat*, *run_LDB.bat*, *run_RA.bat*
 
