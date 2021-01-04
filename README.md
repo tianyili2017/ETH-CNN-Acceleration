@@ -89,6 +89,6 @@ For more details, please refer to the comments in these source codes.
 
 ## References
 
-[1] T. Li, M. Xu, X. Deng and L. Shen, "Accelerate CTU Partition to Real Time for HEVC Encoding with Complexity Control," in *IEEE Transactions on Image Processing* (TIP), Early Access 2020.
+[1] T. Li, M. Xu, X. Deng and L. Shen, "Accelerate CTU Partition to Real Time for HEVC Encoding with Complexity Control," in *IEEE Transactions on Image Processing* (TIP), vol. 29, 2020.
 
 [2] M. Xu, T. Li, Z. Wang, X. Deng, R. Yang and Z. Guan, "Reducing Complexity of HEVC: A Deep Learning Approach," in *IEEE Transactions on Image Processing* (TIP), vol. 27, no. 10, pp. 5044-5059, Oct. 2018.
